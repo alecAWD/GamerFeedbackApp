@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/feedbackTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="73dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="99dp"
+        android:text="Feedback Data"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextFeedbackTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextFeedbackTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="185dp"
+        android:layout_marginBottom="45dp"
+        android:ems="10"
+        android:hint="Feedback Title"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editTextFeedbackView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/feedbackTextView" />
+
+    <EditText
+        android:id="@+id/editTextFeedbackView"
+        android:layout_width="364dp"
+        android:layout_height="231dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="190dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Feedback"
+        android:inputType="textMultiLine"
+        android:maxLength="250"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextFeedbackTitle" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

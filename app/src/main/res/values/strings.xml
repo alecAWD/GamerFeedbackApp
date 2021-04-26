@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GamerFeedback</string>
+    <string name="invalid_username">Not a valid email address</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="passwords_do_not_match">Passwords do not match</string>
+    <string name="new_game">New Game</string>
+    <string name="new_account"><a>New User? Click here to register.</a></string>
+</resources>
